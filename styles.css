@@ -1,0 +1,148 @@
+@media (max-width: 28.75em) {
+  header {
+    flex-direction: column;
+text-align: center;
+}
+}
+
+
+.fa {
+text-decoration: none;
+  padding: 5px;
+}
+
+#icons {
+  text-align: left;
+}
+
+.fa-linkedin {
+  color: white;
+  background: #007bb5;
+}
+
+.fa-github {
+  color: black;
+}
+.fa-envelope {
+  color: black;
+}
+
+ul {
+ list-style: none;
+  overflow: hidden;
+  margin: 0;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+}
+
+ul > li {
+  display: inline-block;
+
+}
+
+li a:hover {
+background-color: grey;
+}
+
+
+
+.headerright {
+  margin-left: 10px;
+  
+}
+
+#navbar {
+  margin-right: 10px;
+  position: fixed;
+  right: 0px;
+  /*please take out the posiiton fixed and right for the love of god*/
+  
+  
+}
+
+.headername {
+  margin-bottom: 0px;
+}
+
+.headerdesc {
+  margin-top: 0px;
+}
+#name-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  
+}
+#header {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  top: 0px;
+  background: white;
+  width: 100%
+}
+
+
+.welcometext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.welcome {
+  padding-top: 150px;
+   display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  max-width: 68.75rem;
+  margin: auto;
+}
+
+.welcome img {
+ height: 18rem;
+  width: 18rem;
+}
+
+.welcometext {
+  width: 25rem;
+  padding: 0.625rem;
+  border-radius: 6px;
+}
+.welcometext h1 {
+  margin-bottom: var(--bottom-margin);
+}
+
+.welcometext p {
+  line-height: var(--line-height);
+  padding: 0.3rem 0;
+}
+
+.projects {
+  background-color: lightgrey;
+  
+}
+.project-img {
+  width: 50%;
+  height: 50%;
+  
+}
+
+.project-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+}
+
+.project-title {
+  text-align: center;
+}
